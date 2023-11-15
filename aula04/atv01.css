@@ -1,0 +1,7 @@
+#div1{
+    background-image: url(img01.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: 200px;
+    background-attachment: fixed;     
+}
