@@ -1,0 +1,159 @@
+*{
+    font-size: 30px;
+}
+
+.box{
+
+    height: 700px;
+    display: grid;
+    grid-template-areas: 'titulo titulo titulo'
+                         'menue conteudo menud'
+                         'rodape rodape rodape';
+    grid-template-columns: 80px 1fr 200px;
+    grid-template-rows: 100px 1fr 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+    background-color: blue;
+    padding: 10px;
+
+}
+
+.box .titulo{
+
+    text-align: center;
+    background-color: rgb(38, 150, 255);
+    grid-area: titulo;
+
+}
+
+.box .titulo img{
+
+    height: 30px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+.box .menue{
+
+    text-align: center;
+    grid-area: menue;
+    display: grid;
+    grid-template-areas: "menue1"
+                         "menue2"
+                         "menue3";
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box .menue .menue1{
+
+    background-color: rgb(190, 221, 249);
+    grid-area: menue1;
+
+}
+
+.box .menue .menue2{
+
+    background-color: rgb(159, 216, 252);
+    grid-area: menue2;
+}
+
+.box .menue .menue3{
+
+    background-color: rgb(140, 224, 252);
+    grid-area: menue3;
+
+}
+
+.box .menue .menue1 p{
+
+    background-color: skyblue;
+}
+
+.box .conteudo{
+
+    text-align: center;
+    background-color: lightgreen;
+    grid-area: conteudo;
+
+}
+
+.box .menud{
+
+    text-align: center;
+    background-color: skyblue;
+    grid-area: menud;
+    display: grid;
+    grid-template-areas: "menud1 menud2"
+                         "menud3 menud4"
+                         "menud5 menud6"
+                         "menud7 menud8";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+.box .menud .menud1{
+
+    background-color: rgb(116, 130, 135);
+    grid-area: menud1;
+}
+
+.box .menud .menud2{
+
+    background-color: rgb(3, 99, 132);
+    grid-area: menud2;
+}
+
+.box .menud .menud3{
+
+    background-color: rgb(47, 75, 85);
+    grid-area: menud3;
+}
+
+.box .menud .menud4{
+
+    background-color: rgb(84, 179, 210);
+    grid-area: menud4;
+}
+
+.box .menud .menud5{
+
+    background-color: lightblue;
+    grid-area: menud5;
+}
+
+.box .menud .menud6{
+
+    background-color: rgb(66, 103, 115);
+    grid-area: menud6;
+}
+
+.box .menud .menud7{
+
+    background-color: rgb(32, 56, 64);
+    grid-area: menud7;
+}
+
+.box .menud .menud8{
+
+    background-color: rgb(23, 95, 119);
+    grid-area: menud8;
+}
+
+.box .menud p{
+
+    font-size: 15px;
+}
+
+.box .menud .menud6 p{
+
+    background-color: skyblue;
+}
+
+.box .rodape{
+
+    text-align: center;
+    background-color: rgb(118, 171, 221);
+    grid-area: rodape;
+
+}
